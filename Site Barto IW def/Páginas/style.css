@@ -1,0 +1,266 @@
+/*Glória a Deus que me ajudou a fazer esse site mesmo fraco.*/
+ /*Obs: place-items: center;  Centraliza vertical e horizontal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+body{
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        background-color: aliceblue;
+        position:relative;
+        top:10vh;
+}
+
+.TB{
+    width:100%;
+    height:10vh;
+    background-color:#E35336;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:fixed;
+    z-index:999;
+    top:0;
+    left:0;
+}
+
+
+.Fimg{
+    display:flex;
+    width:9%;
+    height:14vh;
+    margin: 0 1%;
+}
+.Divisória{
+    height:8.5vh;
+    width:0.3vh;
+    background-color:white;
+    border-style: none;
+} 
+nav ul{
+    width:100%;
+    text-align:center;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:6vh 6vh;
+    font-size:2.5vh;
+    font-family:"Roboto", sans-serif;
+   
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:0.35s;
+    cursor:pointer;
+}
+
+nav ul li a:hover{
+    margin:3vh;
+    font-size:2.8vh;
+    color:rgb(175, 175, 175);
+}
+
+nav ul li a:active{
+    color:rgb(141, 141, 141);
+}
+
+.servicos{
+    display: flex;
+    justify-content: center;
+    position: relative;
+   gap: 10vh;
+}
+
+.NS{
+font-size: xx-large;
+margin-top: 3vh;
+text-align: center;
+
+}
+
+.reforma img{
+    width: 30vh;
+    height: 30vh;
+    position: relative;
+    right: 0.8vh;
+}
+
+.reforma{
+    border: solid 0.5vh;
+    height: 40vh;
+    width: 30vh;
+    border-radius: 2.2vh;
+    position: relative;
+    top: 10vh;
+    background-color: #39404b4d;
+}
+
+.reforma span{
+    font-size: 5vh;
+    position: relative;
+    left: 4.7vh;
+    bottom: 3vh;
+}
+
+.construcao img{
+    width: 30vh;
+    height: 30vh;
+    position: relative;
+    right: 0.8vh;
+}
+
+.construcao{
+    border: solid 0.5vh;
+    height: 40vh;
+    width: 30vh;
+    border-radius: 2.2vh;
+    position: relative;
+    top: 10vh;
+    background-color: #39404b4d;
+   
+}
+
+.construcao span{
+    font-size: 5vh;
+    position: relative;
+    left:2vh;
+    bottom: 3vh;
+}
+
+
+.pintura img{
+    width: 30vh;
+    height: 30vh;
+    position: relative;
+    right: 0.8vh;
+}
+
+.pintura{
+    border: solid 0.5vh;
+    height: 40vh;
+    width: 30vh;
+    border-radius: 2.2vh;
+    position: relative;
+    top: 10vh;
+    background-color: #39404b4d;
+   
+}
+
+.pintura span{
+    font-size: 5vh;
+    position: relative;
+    left:6vh;
+    bottom: 3vh;
+}
+
+.SF{ 
+    font-size: xx-large;
+     text-align: center;
+     position: relative;
+     top: 32vh;
+     z-index: 1;
+}
+
+.servicosprestados{
+    height: 70vh;
+    width: 90%;
+    position: relative;
+   justify-content: center;
+    margin: auto;
+    top: 20vh;
+    border-radius: 5vh;
+    display: flex;
+    gap: 5vh;
+}
+
+.casareformada{
+    width: 40vh;
+    height: 40vh;
+    position: relative;
+    top: 20vh;
+    border-radius: 5vh;
+    display: block;
+}
+
+.casapintada{
+    width: 40vh;
+    height: 40vh;
+    position: relative;
+    top: 20vh;
+    border-radius: 5vh;
+    display: block;
+}
+
+.casaconstruida{
+    width: 40vh;
+    height: 40vh;
+    position: relative;
+    top: 20vh;
+    border-radius: 5vh;
+    display: block;
+}
+
+.outracasa{
+    width: 40vh;
+    height: 40vh;
+    position: relative;
+    top: 20vh;
+    border-radius: 5vh;
+    display: block;
+}
+
+.Rodapé{
+    width:100%;
+    height:15vh;
+    background-color: #6064657e;
+    display:flex;
+    align-items:center;
+    position:relative;
+    top:25vh;
+}
+
+.RodEsq{
+    width:50%;
+    height:15vh;
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:3vh;
+    font-family:"Lora", sans-serif;
+    border-right:0.5vh solid white;
+}
+
+.RodDir{
+    width:50%;
+    height:15vh;
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:2.5vh;
+    font-family:"Lora", sans-serif;
+    border-right:0.5vh solid white;
+    
+}
+
+.RodDir ul{
+    list-style-type:none;
+    line-height:4vh;
+}

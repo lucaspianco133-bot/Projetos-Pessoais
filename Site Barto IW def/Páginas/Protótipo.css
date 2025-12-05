@@ -1,0 +1,861 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+html{
+    scroll-behavior:smooth;
+}
+
+.gfs-didot-regular {
+  font-family: "GFS Didot", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root{
+    --altura-TB:10vh;
+}
+
+nav {
+    z-index:10;
+}
+
+.TB{
+    width:100%;
+    height:10vh;
+    background-color:#E35336;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:fixed;
+}
+
+
+.Fimg{
+    display:flex;
+    width:9%;
+    height:14vh;
+    margin:1%;
+}
+.Divisória{
+    height:8.5vh;
+    width:0.3vh;
+    background-color:white;
+    border-style: none;
+} 
+nav ul{
+    width:100%;
+    text-align:center;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:6vh 6vh;
+    font-size:2.5vh;
+    font-family:"Roboto", sans-serif;
+   
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:0.35s;
+    cursor:pointer;
+}
+
+nav ul li a:hover{
+    margin:3vh;
+    font-size:2.8vh;
+    color:rgb(175, 175, 175);
+}
+
+nav ul li a:active{
+    color:rgb(141, 141, 141);
+}
+
+.main{
+    display:flex;
+    width:100%;
+    height:auto;
+}
+
+.Ad{
+    /*margin-top: var(--altura-TB);*/
+    z-index:-1;
+    width: 100dvw;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.Aboutus{
+    width:100%;
+    height:100vh;
+    background-color:#394048;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top:-1vh;
+    padding-top:1vh;
+}
+
+
+.prédio{
+    margin-top:1.5vh;
+    height:90vh;
+    z-index:-0;
+    margin-right:2.5%;
+    border-radius:3vh;
+}
+
+
+.Slogan{
+    position:absolute;
+    z-index:1;
+    color:white;
+    font-size:6vh;
+    width:50%;
+    margin-left:6%;
+    margin-top:-75vh;
+    text-align:left;
+    font-family: "roboto", sans-serif;
+}
+
+.Textoinformativo{
+    font-family:"Roboto", sans-serif;
+    color:white;
+    font-size:3.3vh;
+    margin-left:7%;
+    width:43%;
+    line-height: 5vh;
+    margin-top:15vh;
+    text-align:left;
+}
+
+.temp{
+    width:100%;
+    height:110vh;
+    background-color:#ECF4F7;
+}
+
+.KOS0{
+    width:100%;
+    height:10vh;
+    text-align:center;
+    margin-bottom:4vh;
+}
+
+.KOS{
+    font-family: "roboto", sans-serif;
+    font-size:7vh;
+    color:rgb(95, 95, 95);
+    padding-top:6vh;
+}
+
+.Serviços{
+    width:100%;
+    height:80vh;
+    background-color:transparent;
+    display:flex;
+    justify-content: left;
+    align-items:center;
+    flex-wrap: wrap;
+
+}
+
+.Srvç1, .Srvç2, .Srvç3, .Srvç4, .Srvç5{
+    margin:6vh;
+    border-radius:3vh;
+    width:18%;
+    height:61vh;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    transition:0.3s;
+    justify-content:space-around; 
+    text-align:justify;
+    align-items:center;
+    position: relative;
+    left:6vh;
+
+}
+
+.Srvç1, .Srvç2, .Srvç3, .Srvç4, .Srvç5, img{
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+
+}
+
+.Srvç1:hover{
+    margin-top:3vh;
+    width:19%;
+    height:61vh;
+    
+}
+
+.Srvç2:hover{
+    margin-top:3vh;
+    width:19%;
+    height:61vh;
+}
+
+.Srvç3:hover{
+    margin-top:3vh;
+    width:19%;
+    height:61vh;
+}
+
+.Srvç4:hover{
+    margin-top:3vh;
+    width:20%;
+    height:61vh;
+}
+
+.Srvç5:hover{
+    margin-top:3vh;
+    width:19%;
+    height:61vh;
+}
+
+.Srvç6:hover{
+    margin-top:3vh;
+    width:20%;
+    height:61vh;
+}
+
+.imgcntr1{
+    width:40%;
+    height:20vh;
+    margin-top:1.5vh;
+}
+
+.imgcntr2{
+    width:75%;
+    height:35vh;
+    margin-top:-5vh;
+    margin-bottom:-8vh;
+}
+
+.imgcntr3{
+    width:100%;
+    height:57vh;
+    margin-top:-18vh;
+    margin-bottom:-18vh;
+}
+
+.imgcntr5{
+    width:65%;
+    height:14vh;
+    margin-top:4vh;
+    margin-bottom:5vh;
+}
+
+.Txtcntr1{
+    font-size:5vh;
+    margin-top:1vh;
+    font-family:"Barlow Condensed", sans-serif;
+    text-align:center;
+}
+
+.Txtcntr2{
+    font-size:4.3vh;
+    font-family:"Barlow Condensed", sans-serif;
+    text-align:center;
+}
+
+.txtpsrv1{
+    font-family:"Roboto", sans-serif;
+    color:rgb(0, 0, 0);
+    font-size:2.5vh;
+    width:95%;
+    text-align:initial;
+    width:85%;
+    height:25vh;
+    margin-left:10%;
+    margin-top:3vh;
+}
+.txtpsrv2{
+    font-family:"Roboto", sans-serif;
+    color:rgb(0, 0, 0);
+    font-size:2.3vh;
+    width:95%;
+    text-align:initial;
+    width:85%;
+    height:25vh;
+    margin-left:10%;
+    margin-top:2.5vh;
+}
+
+/*.Construçõestxt{
+    display:flex;
+    font-size:4vh;
+}*/
+
+.PortObr{
+    width:100%;
+    height:120vh;
+    background-color:#394048;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.NO{
+    margin-top:4vh;
+    width:80%;
+    height:9vh;
+    text-align:center;
+    font-family:"roboto",sans-serif;
+}
+
+.NO p{
+    font-size:7vh;
+    color:white;
+
+}
+
+.Exemplos{
+    margin-top:5vh;
+    width:100%;
+    height:75vh;
+    background:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.Obra1, .Obra2,  .Obra3, .Obra4{
+    width:20%;
+    height:70vh;
+    background:transparent;
+    border-width:0.5vh;
+    border-color:rgb(122, 93, 20);
+    border-style:solid;
+    margin:4vh;
+    border-radius:2vh;
+    transition:0.4s;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    font-family:"roboto", sans-serif;
+}
+
+.Obra1:hover{
+    transition:0.25s;
+    width:20%;
+    height:73vh;
+    background:transparent;
+    border-width:0.5vh;
+    border-color:gold;
+    border-style:solid;
+    margin:6.5vh;
+    border-radius:2vh;
+}
+
+.Obra2:hover{
+    width:20%;
+    height:73vh;
+    background:transparent;
+    border-width:0.5vh;
+    border-color:gold;
+    border-style:solid;
+    margin:6.5vh;
+    border-radius:2vh;
+}
+
+.Obra3:hover{
+    width:20%;
+    height:73vh;
+    background:transparent;
+    border-width:0.5vh;
+    border-color:gold;
+    border-style:solid;
+    margin:6.5vh;
+    border-radius:2vh;
+}
+
+.Obra4:hover{
+    width:20%;
+    height:73vh;
+    background:transparent;
+    border-width:0.5vh;
+    border-color:gold;
+    border-style:solid;
+    margin:6.5vh;
+    border-radius:2vh;
+}
+
+.Obra1 img{
+    width:95%;
+    border-radius:2vh;
+    margin-top:1vh;
+    height:56vh;
+}
+
+.Obra1 p{
+    margin-top:3vh;
+    width:90%;
+    color:rgb(202, 202, 202);
+    font-size:2.2vh;
+    transition:0.25s;
+}
+
+.Obra1:hover p{
+    font-size:2.3vh;
+    color:white;
+}
+
+.Obra2 img{
+    margin-top:1vh;
+    width:95%;
+    border-radius:2vh;
+    height:56vh;
+}
+
+.Obra2 p{
+    margin-top:1.8vh;
+    width:90%;
+    color:rgb(202, 202, 202);
+    font-size:2.2vh;
+    transition:0.25s;
+}
+
+.Obra2:hover p{
+    font-size:2.3vh;
+    color:white;
+}
+
+.Obra3 img{
+    margin-top:1vh;
+    width:95%;
+    border-radius:2vh;
+    height:56vh;
+}
+
+.Obra3 p{
+    margin-top:1.8vh;
+    width:90%;
+    color:rgb(202, 202, 202);
+    font-size:2.2vh;
+    transition:0.25s;
+}
+
+.Obra3:hover p{
+    font-size:2.3vh;
+    color:white;
+}
+
+.Obra4 img{
+    margin-top:1vh;
+    width:95%;
+    border-radius:2vh;
+    height:56vh;
+}
+
+.Obra4 p{
+    margin-top:1.8vh;
+    width:90%;
+    color:rgb(202, 202, 202);
+    font-size:2.2vh;
+    transition:0.25s;
+}
+
+.Obra4:hover p{
+    font-size:2.3vh;
+    color:white;
+    width:95%;
+}
+
+.Contactus{
+    width:11%;
+    height:7vh;
+    background-color:#2a2e33;
+    border-width:0.1vh;
+    border-color:white;
+    border-radius:0.9vh;
+    color:white;
+    margin-top:10vh;
+    cursor:pointer;
+    border-style:solid;
+    text-decoration:none;
+    text-align:center;
+    line-height:7vh;
+    transition:0.15s;
+}
+
+.Contactus:hover{
+    opacity:0.7;
+}
+
+.Contactus:active{
+    opacity:0.5;
+}
+
+.Tlkus{
+    font-family:"Roboto", sans-serif;
+    font-size:2.2vh;
+}
+
+.PeR{
+    width:100%;
+    height:200vh;
+    background-color:#ECF4F7;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    font-family: "roboto", sans-serif;
+}
+
+.PeRtítulo{
+    width:8 0%;
+    height:10vh;
+    text-align:center;
+    margin-top:8vh;
+    font-family: "roboto", sans-serif;
+    font-size:8vh;
+    color:rgb(95, 95, 95);
+}
+
+.Homepinturas{
+    width:90%;
+    height:70vh;
+    background-color:rgb(255, 255, 255);
+    margin-top:10vh;
+    border-radius:3vh;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    transition:0.25s;
+}
+
+/*.KOS1{
+    width:100%;
+    height:10vh;
+    text-align:center;
+    background:transparent;
+}
+
+.KOSA{
+    font-family: "Noto Serif Hebrew", serif;
+    font-size:7vh;
+    color:rgb(95, 95, 95);
+    padding-top:6vh;
+}
+*/
+
+.Imghmp{
+    width:30%;
+    height:55vh;
+    background-color:aqua;
+    margin-top:7.5vh;
+    margin-left:5%;
+    border-radius:1vh;
+}
+
+.Titlehmp{
+    width:50%;
+    height:10vh;
+    margin-left:40%;
+    margin-top:-54vh;
+    color:rgb(95, 95, 95);
+    font-family:"roboto", sans-serif;
+    font-size:6vh;
+    
+}
+
+.Txthmp{
+    width:55%;
+    height:40vh;
+    background-color:none;
+    margin-left:40%;
+    margin-top:3vh;
+    color:black;
+    font-size:3vh;
+    font-family:"Roboto", sans-serif;
+    text-align: justify;
+}
+
+.Homepinturas1{
+    width:90%;
+    height:70vh;
+    background-color:rgb(255, 255, 255);
+    margin-top:10vh;
+    border-radius:3vh;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    transition:0.25s;
+}
+
+.Homepinturas1:hover{
+    margin-top:7vh;
+}
+
+.Homepinturas:hover{
+    margin-top:7vh;
+}
+
+.Imghmp1{
+    width:30%;
+    height:55vh;
+    background-color:aqua;
+    margin-top:7.5vh;
+    margin-left:65%;
+    border-radius:1vh;
+}
+
+.Titlehmp1{
+    width:50%;
+    height:12vh;
+    margin-left:8%;
+    margin-top:-54vh;
+    color:rgb(95, 95, 95);
+    font-family:"roboto", sans-serif;
+    font-size:6vh;
+    text-align:center;
+}
+
+.Txthmp1{
+    width:50%;
+    height:40vh;
+    margin-left:8%;
+    margin-top:2.5vh;
+    color:black;
+    font-size:3vh;
+    font-family:"Roboto", sans-serif;
+    text-align: justify;
+}
+
+.Reforma{
+    width:100%;
+    height:155vh;
+    background-color:#394048;
+}
+
+.Reftítulo{
+    font-family: "roboto", sans-serif;
+    font-size:7vh;
+    color:rgb(255, 255, 255);
+    padding-top:6vh;
+    text-align:center;
+}
+
+.Refcntnt{
+    margin-top:6vh;
+    width:100%;
+    height:110vh;
+    background-color:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.Rustico{
+    width:40%;
+    height:100vh;
+    background-color:transparent;
+    border-radius:2vh;
+    margin:3%;
+    border-color:rgba(77, 42, 22, 0.973);
+    border-width:0.7vh;
+    border-style:solid;
+    text-align:center;
+    transition:0.25s;
+    color:white;
+}
+
+.Rusticop1{
+    margin-top:5vh;
+    width:100%;
+    height:15vh;
+    font-size:8vh;
+    font-family: "roboto", sans-serif;
+}
+
+.Rustico img{
+    width:90%;
+    height:40vh;
+    border-radius:3vh;
+}
+
+.Rusticop2{
+    text-align:left;
+    margin-top:5vh;
+    width:85%;
+    font-size:3.8vh;
+    margin-left:7.5%;
+    font-family:"roboto", sans-serif;
+}
+
+.Rustico:hover{
+    height:103vh;
+    margin:5%;
+    border-color:rgb(184, 106, 55);
+}
+
+.Moderno{
+    width:40%;
+    height:100vh;
+    background-color:transparent;
+    border-radius:2vh;
+    margin:3%;
+    transition:0.25s;
+    border-color:rgba(148, 121, 47, 0.973);
+    border-width:0.7vh;
+    border-style:solid;
+    text-align:center;
+    color:white;
+}
+
+.Modernop1{
+    margin-top:5vh;
+    width:100%;
+    height:15vh;
+    font-size:8vh;
+    font-family:"Roboto", sans-serif;
+}
+
+.Modernop2{
+    text-align:left;
+    margin-top:4.5vh;
+    width:85%;
+    font-size:3.5vh;
+    margin-left:7.5%;
+    font-family: "Roboto", sans-serif;
+}
+
+.Moderno img{
+    width:90%;
+    height:40vh;
+    border-radius:3vh;
+}
+
+.Moderno:hover{
+    height:103vh;
+    margin:5%;
+    border-color:gold;
+}
+
+.Contactus1{
+    width:100%;
+    height:12vh;
+    background-color:none;
+    margin-top:5vh;
+    justify-content: center;
+    align-items:center;
+    display:flex;
+}
+
+.Contactusb{
+    width:11%;
+    height:7vh;
+    background-color:#2a2e33;
+    border-width:0.1vh;
+    border-color:white;
+    border-radius:0.9vh;
+    color:white;
+    margin-top:0vh;
+    cursor:pointer;
+    border-style:solid;
+    text-decoration:none;
+    text-align:center;
+    line-height:7vh;
+    transition:0.15s;
+}
+
+.Contactusb:hover{
+    opacity:0.7;
+}
+
+.Contactusb:active{
+    opacity:0.5;
+}
+
+/*.contato{
+    width: 100%;
+    height: 15vh;
+    background-color: #6064657e;
+    position: relative;
+    
+}
+
+.contatoesq{
+    width: 50%;
+    height: 15vh;
+    float: left;
+position: relative;
+
+}
+
+.contatoesq span{
+  float: right;
+  position: relative;
+  right: 4vh;
+  color: white;
+  font-size:3vh;
+}
+
+.contatodir{
+    width: 50%;
+    height: 15vh;
+    float: left;
+    position: relative;
+
+}
+
+.contatodir ul li span{
+    color: white;
+    position: relative;
+    top: 1vh;
+    left: 30vh;
+    font-size: 3vh;
+}
+
+.contatodir ul li{
+     list-style-type:none  ;
+      padding: 0.5vh;
+}
+      */
+
+.Rodapé{
+    width:100%;
+    height:15vh;
+    background-color: #6064657e;
+    display:flex;
+    align-items:center;
+}
+
+.RodEsq{
+    width:50%;
+    height:15vh;
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:3vh;
+    font-family:"roboto", sans-serif;
+    border-right:0.5vh solid white;
+}
+
+.RodDir{
+    width:50%;
+    height:15vh;
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:2.5vh;
+    font-family:"roboto", sans-serif;
+    border-right:0.5vh solid white;
+    
+}
+
+.RodDir ul{
+    list-style-type:none;
+    line-height:4vh;
+}
